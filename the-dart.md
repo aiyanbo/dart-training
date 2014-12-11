@@ -19,13 +19,13 @@
 
 # Run in all modrn browsers
 
-![](images/temp-code-example.png)
+![](https://raw.githubusercontent.com/aiyanbo/dart-training/master/images/temp-code-example.png)
 
 ---
 
 # Dart execution
 
-![](images/dart-execution.png)
+![](https://raw.githubusercontent.com/aiyanbo/dart-training/master/images/dart-execution.png)
 
 ---
 
@@ -138,6 +138,8 @@ assert(person.age == 18)
 
 # Demo
 
+[AiShell](https://github.com/aiyanbo/aishell)
+
 - Testing
 - Debug
 
@@ -145,7 +147,8 @@ assert(person.age == 18)
 
 # Articles
 
-- [Style Guide](https://www.dartlang.org/articles/style-guide/)
+- [Dart Style Guide](https://www.dartlang.org/articles/style-guide/)
+- [Html & Css Style Guide](http://codeguide.bootcss.com/)
 
 ---
 

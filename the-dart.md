@@ -53,7 +53,7 @@ names.addAll(['Andy', 'Bob']);
 
 - Set
 ```dart
-Set<String> topic = new Set();
+Set<String> topic = new Set<String>();
 topic.addAll(['News', 'Techs']);
 topic.remove('Techs');
 ```
@@ -66,3 +66,22 @@ assert(map['key'] == 'One')
 
 --
 
+# main() function
+
+- Web app
+
+```dart
+import 'dart:html'
+
+void main(){
+	querySelector('#div').innerHTML = 'Hello, Dart';
+}
+```
+
+- Server
+
+```dart
+void main(List<String> args){
+	print(args);
+}
+```

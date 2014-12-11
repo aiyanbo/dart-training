@@ -3,7 +3,7 @@
 
 ---
 
-# DART: A STRUCTURED WEB PROGRAMMING LANGUAGE
+# Dart: A structured web programming language
 
 - Object oriented
 - For better performance
@@ -17,19 +17,32 @@
 
 ---
 
-# RUN IN ALL MODERN BROWSERS
+# Run in all modrn browsers
 
 ![](images/temp-code-example.png)
 
 ---
 
-# DART EXECUTION
+# Dart execution
 
 ![](images/dart-execution.png)
 
 ---
 
-# STATIC TYPES
+# Variables
+
+```dart
+
+var x = 10;
+
+final name = 'Andy';
+
+const PI = 3.1415976;
+```
+
+---
+
+# Static types
 
 - Numbers
   - num
@@ -42,7 +55,7 @@
 
 ---
 
-# COLLECTIONS
+# Collections
 
 - List
 
@@ -64,7 +77,22 @@ var map = {'key' : 'Value'};
 assert(map['key'] == 'One')
 ```
 
---
+---
+
+# Function
+
+```dart
+printNumber(num number) => print(number);
+
+String name({bool enabledFullName: false}) {
+	if(enabledFullName) {
+		return 'Andy Ai';
+	}
+	return 'Andy';
+}
+```
+
+---
 
 # main() function
 
@@ -85,3 +113,44 @@ void main(List<String> args){
 	print(args);
 }
 ```
+
+---
+
+# Class
+
+```dart
+Class Person{
+	String name;
+	int age;
+
+	Person({String name, int age: 18} {
+		this.name = name;
+		this.age = age;
+	}
+}
+
+var person = new Person('Andy');
+
+assert(person.age == 18)
+```
+
+---
+
+# Demo
+
+- Testing
+- Debug
+
+---
+
+# Articles
+
+- [Style Guide](https://www.dartlang.org/articles/style-guide/)
+
+---
+
+<h1 style="padding-top:150px" class="text-center">Thanks</h1>
+
+<div class="text-center">
+  <img style="width:400px; height:400px" src="http://api.qrserver.com/v1/create-qr-code/?color=000000&amp;bgcolor=FFFFFF&amp;data=http%3A%2F%2Fweibo.com%2Faiyboo&amp;qzone=1&amp;margin=0&amp;size=400x400&amp;ecc=L" alt="qr code" />
+<div>
